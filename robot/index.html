@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guide the Robot | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/robot.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#71899b"/><circle cx="52" cy="14" r="5" fill="#e8e9e2"/></svg>
+      <span>EnigmaPath<small>Guide the Robot</small></span>
+    </a>
+    <div class="ep-topbar__right">
+      <span class="badge" id="level-badge" hidden></span>
+      <button class="btn btn--ghost btn--small" id="btn-levels" type="button" hidden>All levels</button>
+    </div>
+  </header>
+
+  <main class="ep-main">
+    <!-- ============ LEVEL SELECT ============ -->
+    <section id="screen-levels">
+      <div class="levels-head">
+        <div>
+          <p class="eyebrow">Orientation mode</p>
+          <h1>Guide the Robot</h1>
+          <p class="muted">Turn the robot, then move it forward. Write the whole program first, then run it. Each maze has several routes: find a short one.</p>
+        </div>
+        <div class="levels-tools">
+          <div class="progress-line"><span id="progress-text">0 / 20 completed</span><div class="bar"><i id="progress-fill"></i></div></div>
+          <label class="check"><input type="checkbox" id="unlock-all"> Teacher mode: unlock all levels</label>
+          <button class="btn btn--danger btn--small" id="reset-progress" type="button">Reset progress</button>
+        </div>
+      </div>
+      <div class="level-grid" id="level-grid"></div>
+    </section>
+
+    <!-- ============ GAME ============ -->
+    <section id="screen-game" hidden>
+      <div class="game-layout">
+        <div class="card maze-card">
+          <div class="maze-title">
+            <h2 id="maze-name">Level</h2>
+            <span class="hint" id="maze-meta"></span>
+          </div>
+          <div class="canvas-wrap" id="canvas-wrap"><canvas id="maze-canvas" tabindex="0" aria-label="Maze"></canvas></div>
+          <div class="legend">
+            <span><i class="dot dot--robot"></i> Robot</span>
+            <span><i class="dot dot--goal"></i> Goal</span>
+            <span><i class="dot dot--trail"></i> Visited</span>
+          </div>
+        </div>
+
+        <div class="card side-card">
+          <div class="stats">
+            <div><span class="stat__v" id="stat-count">0</span><span class="stat__l">Instructions</span></div>
+            <div><span class="stat__v" id="stat-par">–</span><span class="stat__l">Fewest possible</span></div>
+            <div><span class="stat__v" id="stat-best">–</span><span class="stat__l">Your best</span></div>
+            <div><span class="stat__v" id="stat-face">N</span><span class="stat__l">Facing</span></div>
+          </div>
+
+          <h3 class="side-h">Instructions <span class="hint">(keys: ↑ forward, ← turn left, → turn right)</span></h3>
+          <div class="ins-buttons">
+            <button class="btn ins" data-ins="F" type="button"><span>↑</span> Forward</button>
+            <button class="btn ins" data-ins="L" type="button"><span>↶</span> Turn left</button>
+            <button class="btn ins" data-ins="R" type="button"><span>↷</span> Turn right</button>
+          </div>
+
+          <h3 class="side-h">Your program</h3>
+          <ol class="program" id="program" aria-label="Program"></ol>
+          <div class="edit-row">
+            <button class="btn btn--small" id="btn-left" type="button" title="Move the selected instruction earlier">◀ Earlier</button>
+            <button class="btn btn--small" id="btn-right" type="button" title="Move the selected instruction later">Later ▶</button>
+            <button class="btn btn--small btn--danger" id="btn-remove" type="button" title="Remove the selected (or last) instruction">Remove</button>
+            <button class="btn btn--small btn--danger" id="btn-clear" type="button">Clear</button>
+          </div>
+
+          <div class="run-row">
+            <button class="btn btn--primary" id="btn-run" type="button">▶ Run</button>
+            <button class="btn" id="btn-step" type="button">Step</button>
+            <button class="btn" id="btn-pause" type="button" disabled>Pause</button>
+            <button class="btn" id="btn-reset" type="button">Reset robot</button>
+          </div>
+          <label class="speed">Speed <input type="range" id="speed" min="1" max="5" value="3"></label>
+
+          <div class="message" id="message" role="status" aria-live="polite">Build a program, then press Run.</div>
+          <div class="win-row" id="win-row" hidden>
+            <button class="btn btn--primary" id="btn-next" type="button">Next level →</button>
+            <button class="btn" id="btn-solution" type="button" hidden>Show a shortest program</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ep-footer">Lucas M.R 2026, with vibes</footer>
+
+  <script src="../shared/maze-lib.js"></script>
+  <script src="../shared/maze-levels.js"></script>
+  <script src="js/robot.js"></script>
+</body>
+</html>

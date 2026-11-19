@@ -1,0 +1,1102 @@
+[
+ {
+  "question_text": "What is the main aim of a phishing attack?",
+  "options": [
+   "To make a computer run more slowly",
+   "To block a website with too many requests",
+   "To trick people into revealing personal or financial details",
+   "To scramble files until money is paid"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A school wants a backup that survives a fire in its building. Which is the best extra location?",
+  "options": [
+   "A USB drive left in the same classroom",
+   "Cloud storage or a disk kept at another site",
+   "The Recycle Bin on the school server",
+   "Another folder on the same computer's hard disk"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In simple terms, what does VLOOKUP do?",
+  "options": [
+   "Counts how many of the cells in a range match a rule you type",
+   "Adds together all of the numbers that are stored in one column",
+   "Finds a value in the first column and returns a value from the same row",
+   "Sorts all of the rows of a table so one column runs from A to Z"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which storage device has spinning magnetic platters inside it?",
+  "options": [
+   "USB flash drive",
+   "Solid-state drive (SSD)",
+   "Memory card",
+   "Hard disk drive (HDD)"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does HTML stand for?",
+  "options": [
+   "Home Tool Markup Language",
+   "HyperText Markup Language",
+   "Hyperlink and Text Management Language",
+   "High Text Machine Language"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an IP address?",
+  "options": [
+   "A number that identifies a device on a network",
+   "A type of email program",
+   "A secret password that protects a Wi-Fi network",
+   "The text name that people type to visit a website"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A field holds product codes such as AB-102. Which data type is best?",
+  "options": [
+   "Text",
+   "Real",
+   "Integer",
+   "Boolean"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "total = 0; for i in range(1, 5): total = total + i * 2. What is total at the end?",
+  "options": [
+   "10",
+   "30",
+   "12",
+   "20"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which protocol is mainly used to send email to a mail server?",
+  "options": [
+   "FTP",
+   "SMTP",
+   "HTTPS",
+   "DNS"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is a correctly formed IPv4 address?",
+  "options": [
+   "192.168.1.20.5",
+   "192.168.1.20",
+   "192.168.1",
+   "192.168.1.300"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A spam filter improves by learning from thousands of emails that users marked as spam. This is an example of",
+  "options": [
+   "Phishing",
+   "Data validation",
+   "Lossless compression",
+   "Machine learning"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Cell A1 holds 10. What does =IF(A1>10,\"High\",\"Low\") show?",
+  "options": [
+   "FALSE",
+   "High",
+   "10",
+   "Low"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is an SSD usually more resistant to bumps than an HDD?",
+  "options": [
+   "It stores data using a laser",
+   "It spins more slowly",
+   "It connects by Wi-Fi",
+   "It has no moving parts"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A pupil types 'Jhon' instead of 'John'. Why would a validation check usually accept it?",
+  "options": [
+   "Validation can only ever be used on numbers and never on text",
+   "Validation is always switched off when data is stored in the cloud",
+   "'Jhon' looks like a possible name, so only checking against the source finds it",
+   "Computers cannot tell the difference between letters and digits"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a star network, what do all the devices connect to?",
+  "options": [
+   "A central switch or hub",
+   "One long shared cable",
+   "Every other device directly",
+   "Only their two nearest neighbours"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which of these is personal data?",
+  "options": [
+   "The boiling point of pure water at sea level",
+   "A person's name and home address",
+   "The height of the tallest mountain on Earth",
+   "A list of the public holidays in one year"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A date of birth is typed as 12/05/2010 but the true date is 21/05/2010. Which statement is correct?",
+  "options": [
+   "It passes validation as a real date but is still wrong",
+   "It fails the format check because the day is too low",
+   "It is valid and correct because it is a proper date",
+   "It fails validation because the date is not the true one"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A query must find records where both conditions are true. Which operator is needed?",
+  "options": [
+   "AND",
+   "OR",
+   "SUM",
+   "SORT"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "a = '5'; b = '3'; print(a + b). What is printed, given both are text strings?",
+  "options": [
+   "53",
+   "8",
+   "5 3",
+   "15"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a typical rule of data protection law?",
+  "options": [
+   "Personal data may be kept for ever, even when it is not needed",
+   "Personal data does not need to be accurate or kept up to date",
+   "Personal data must be kept secure and deleted when not needed",
+   "Companies may sell personal data to anyone who wants to buy it"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A teacher wants to compare the exam marks of five different pupils. Which chart is the best choice?",
+  "options": [
+   "Pie chart",
+   "Line chart",
+   "Flow chart",
+   "Bar chart"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 100 by 50 pixel image uses 24 bits per pixel and is not compressed. How many bytes is the image data?",
+  "options": [
+   "15000",
+   "120000",
+   "3750",
+   "5000"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "x = 3; while x < 50: x = x + 7. How many times does the loop body run?",
+  "options": [
+   "6",
+   "49",
+   "7",
+   "8"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a main advantage of cloud storage?",
+  "options": [
+   "Files can still be opened with no internet connection at all",
+   "Files always open faster than data that is held in RAM",
+   "Files never need a password to be opened by their owner",
+   "Files can be reached from any device with internet access"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "B1:B6 hold 45, 60, 52, 50, 70 and 38. What does =COUNTIF(B1:B6,\">50\") give?",
+  "options": [
+   "4",
+   "60",
+   "2",
+   "3"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A form rejects an age of 250 because ages must be between 0 and 120. Which check is this?",
+  "options": [
+   "Double entry check",
+   "Visual check",
+   "Range check",
+   "Presence check"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which technology adds digital objects onto a view of the real world through a phone camera?",
+  "options": [
+   "Virtual reality headset",
+   "Augmented reality",
+   "Ransomware",
+   "Email"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "n = 5, count = 0. While n > 0: n = n - 2 and count = count + 1. What is count at the end?",
+  "options": [
+   "4",
+   "3",
+   "2",
+   "-1"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does cloud computing mean?",
+  "options": [
+   "Keeping every file on a single local USB drive plugged into one PC",
+   "Using remote servers on the internet to store data or run software",
+   "Using water pipes to cool the computers in a large server room",
+   "Using computers to predict what the weather will do tomorrow"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which chart best shows whether pupils who revise for more hours get higher test marks?",
+  "options": [
+   "Flow chart",
+   "Mind map",
+   "Scatter graph",
+   "Pie chart"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A pupil copies a paragraph from a website into an essay without saying where it came from. This is",
+  "options": [
+   "Phishing",
+   "Data encryption",
+   "Cloud computing",
+   "Plagiarism"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which code makes a bulleted list with the items Red and Blue?",
+  "options": [
+   "<ol><li>Red</li><li>Blue</li></ol>",
+   "<ul><li>Red</li><li>Blue</li></ul>",
+   "<ul><p>Red</p><p>Blue</p></ul>",
+   "<ul><item>Red</item><item>Blue</item></ul>"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "y = 10; if y > 5: y = y - 3; then if y > 5: y = y - 3. What is y at the end?",
+  "options": [
+   "1",
+   "7",
+   "10",
+   "4"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A pupil wants a small portable device to carry homework between school and home. Which is the best choice?",
+  "options": [
+   "RAM module",
+   "Network switch",
+   "Internal hard disk",
+   "USB flash drive"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is the correct closing tag for a paragraph?",
+  "options": [
+   "</p>",
+   "<!p>",
+   "<\\p>",
+   "<end p>"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does encryption do to data?",
+  "options": [
+   "Scrambles it so that only the key holder can read it",
+   "Deletes it from the computer after it has been read once",
+   "Copies it to a second disk so that it is backed up",
+   "Makes it smaller so that it uses less storage space"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why do regular backups help a school hit by ransomware?",
+  "options": [
+   "Backups remove the malware from the school's router",
+   "Backups stop the malware from ever entering the school network",
+   "Backups hide the school's IP address from criminals",
+   "Files can be restored without paying the criminals"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which chart best shows how a town's temperature changes over 12 months?",
+  "options": [
+   "Organisation chart",
+   "Flow chart",
+   "Line chart",
+   "Pie chart"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is special about an SVG image?",
+  "options": [
+   "It is a video format that is used for streaming films",
+   "It stores a grid of pixels, so it always goes blurry when enlarged",
+   "It stores shapes as instructions, so it stays sharp when enlarged",
+   "It is only used for photographs taken with a camera"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is an example of verification?",
+  "options": [
+   "Typing a password twice and comparing the two entries",
+   "Limiting a mark so that it must be between 0 and 100",
+   "Rejecting the date 45/13/2024 as an impossible date",
+   "Refusing to accept a form when the name box is empty"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is an example of the Internet of Things (IoT)?",
+  "options": [
+   "A stand-alone alarm clock with no network link",
+   "A fridge with sensors that sends alerts to a phone",
+   "A printed photograph hanging on a living-room wall",
+   "A basic pocket calculator that works on its own"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which topology is the most reliable because data can take several different routes?",
+  "options": [
+   "Single bus",
+   "Mesh",
+   "Star",
+   "Ring"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A computer slows down when many programs are open and its RAM is nearly full. Which upgrade would most likely help?",
+  "options": [
+   "Adding a bigger monitor",
+   "Adding more RAM",
+   "Adding a longer power cable",
+   "Adding a second keyboard"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does DNS do?",
+  "options": [
+   "Sends email messages between mail servers",
+   "Turns a website name into an IP address",
+   "Encrypts every page that a browser downloads",
+   "Blocks unwanted traffic from entering a network"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does a browser show for <h1>Hello</h1><p>Welcome</p>?",
+  "options": [
+   "A table with the cells Hello and Welcome",
+   "A large heading 'Hello' followed by a paragraph 'Welcome'",
+   "The text <h1>Hello</h1> and <p>Welcome</p> exactly as typed",
+   "A bulleted list with two items"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which storage medium is read and written using a laser?",
+  "options": [
+   "Blu-ray disc",
+   "Magnetic hard disk",
+   "Solid-state drive",
+   "USB flash drive"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these image formats supports transparent backgrounds and lossless compression?",
+  "options": [
+   "PDF",
+   "JPEG",
+   "WAV",
+   "PNG"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "An AI trained mostly on photos of one group of people works badly for other people. What is the likely cause?",
+  "options": [
+   "Too few pixels on the screen",
+   "A faulty keyboard",
+   "An out-of-date web browser",
+   "Bias in the training data"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is information?",
+  "options": [
+   "Facts that have not yet been sorted, checked or processed",
+   "Any number that has been typed into a spreadsheet cell",
+   "Data that has been saved onto a hard disk drive",
+   "Data that has been processed so that it has meaning"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does the query Town = \"Leeds\" OR Town = \"York\" return?",
+  "options": [
+   "Only the first record in the table",
+   "Records for either Leeds or York",
+   "No records at all",
+   "Records that are in both towns at once"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A1:A6 hold Yes, No, Yes, Yes, No, Yes. What does =COUNTIF(A1:A6,\"Yes\") give?",
+  "options": [
+   "2",
+   "10",
+   "6",
+   "4"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Records (Age, Club): 13 Chess, 12 Drama, 14 Chess, 13 Drama, 12 Chess, 14 Drama. How many match Age >= 14 OR Club = Chess?",
+  "options": [
+   "4",
+   "14",
+   "6",
+   "2"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which code makes a table with one row containing two cells, A and B?",
+  "options": [
+   "<table><tr>A</tr><tr>B</tr></table>",
+   "<table><tr><td>A</td><td>B</td></tr></table>",
+   "<table><tr><tr>A</tr><tr>B</tr></tr></table>",
+   "<table><tr><td>A<td>B</tr></td></table>"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Copying paid software and sharing it for free without permission is called",
+  "options": [
+   "Data encryption",
+   "Online phishing attack",
+   "Data validation",
+   "Software piracy"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a variable in a program?",
+  "options": [
+   "A named place in memory that holds a changeable value",
+   "A line of code that makes a section repeat again and again",
+   "A mistake in the program that stops it from running",
+   "A special key on the keyboard used to run a program"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a database, what is a table?",
+  "options": [
+   "A password for the file",
+   "A single field that holds one value",
+   "A chart that shows the results",
+   "A collection of related records stored in rows and columns"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which tag creates the main, largest heading on a web page?",
+  "options": [
+   "<p>",
+   "<h6>",
+   "<head>",
+   "<h1>"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "In a full mesh, every pair of computers has its own cable. How many cables do 6 computers need?",
+  "options": [
+   "12",
+   "30",
+   "15",
+   "36"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Cells A1 to A4 hold 8, 3, 9 and 5. What does =MIN(A1:A4) show?",
+  "options": [
+   "3",
+   "25",
+   "8",
+   "9"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why does two-factor authentication improve security?",
+  "options": [
+   "It encrypts the router so Wi-Fi is not needed",
+   "A stolen password alone is not enough to log in",
+   "It makes passwords unnecessary for every user",
+   "It blocks every virus before it reaches the PC"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does lossy compression do?",
+  "options": [
+   "Encrypts the file so others cannot open it",
+   "Increases the file size to improve quality",
+   "Shrinks the file so the original can be rebuilt exactly",
+   "Permanently removes some data to make the file smaller"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Records (Age, Club): 13 Chess, 12 Drama, 14 Chess, 13 Drama, 12 Chess, 14 Drama. How many match Age >= 13 AND Club = Chess?",
+  "options": [
+   "3",
+   "13",
+   "2",
+   "1"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does the resolution of a digital image describe?",
+  "options": [
+   "The type of cable used to copy it",
+   "The number of letters in its file name",
+   "The number of pixels it contains, such as 1920 by 1080",
+   "The size of the paper it is printed on"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does validation do?",
+  "options": [
+   "Checks that data matches the original source exactly",
+   "Scrambles data so others cannot read it",
+   "Checks that entered data is sensible and allowed",
+   "Makes a backup copy of the data"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "An image uses 8 bits for each pixel. How many different colours can it show?",
+  "options": [
+   "8",
+   "256",
+   "16",
+   "1024"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A table has 3 rows (tr) and each row has 4 td tags. How many data cells does it have?",
+  "options": [
+   "3",
+   "48",
+   "7",
+   "12"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "fruits = [\"apple\", \"pear\", \"plum\", \"fig\"] and the first item is at index 0. What is fruits[2]?",
+  "options": [
+   "apple",
+   "plum",
+   "pear",
+   "fig"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does copyright protect?",
+  "options": [
+   "A creator's rights over their original work",
+   "A computer from being infected by viruses",
+   "A password from being guessed by criminals",
+   "A network cable from physical damage"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is a database query?",
+  "options": [
+   "A copy of the whole table saved on another disk",
+   "A request that finds records matching conditions",
+   "A password that protects the whole database",
+   "A field that must never be left empty by users"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which line creates a link to page2.html with the link text Next?",
+  "options": [
+   "<a href=\"page2.html\">Next</a>",
+   "<link href=\"page2.html\">Next</link>",
+   "<href=\"page2.html\">Next</href>",
+   "<a src=\"page2.html\">Next</a>"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A pupil wants to put a photo found online on the school website. What should they do first?",
+  "options": [
+   "Use it because it is on the internet for everyone",
+   "Crop out the watermark so that it cannot be seen",
+   "Check the licence or ask the owner for permission",
+   "Change its colours so that nobody can tell it is copied"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "F1 holds the tax rate 0.2 and B3 holds 80. D3 holds =B3*$F$1. What value does D3 show?",
+  "options": [
+   "16",
+   "6.4",
+   "100",
+   "160"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which programming structure repeats a set of instructions?",
+  "options": [
+   "Loop",
+   "Comment",
+   "Variable",
+   "Output"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Cell A1 holds 72. What does =IF(A1>=90,\"A\",\"B\") show?",
+  "options": [
+   "72",
+   "TRUE",
+   "B",
+   "A"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A database table has the columns Name, Age and Town. How many fields does it have?",
+  "options": [
+   "2",
+   "6",
+   "3",
+   "30"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which memory loses its contents when the computer is switched off?",
+  "options": [
+   "ROM",
+   "A hard disk",
+   "RAM",
+   "A flash drive"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the purpose of the INPUT instruction in an algorithm?",
+  "options": [
+   "To show a result on the screen",
+   "To store the program in ROM",
+   "To repeat a set of steps",
+   "To get a value from the user"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A family wants to block unauthorised connections from the internet to their home computer. Which tool helps?",
+  "options": [
+   "A firewall",
+   "A web browser",
+   "A scanner",
+   "A spreadsheet"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which malware pretends to be a useful program but does harm once installed?",
+  "options": [
+   "Spyware",
+   "Worm",
+   "Adware",
+   "Trojan"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a protocol?",
+  "options": [
+   "A set of rules for sending data between devices",
+   "A program that finds and removes any viruses",
+   "A type of web page that is stored on a server",
+   "A cable that joins two computers in a network"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main job of ROM in a computer?",
+  "options": [
+   "Temporarily holding the files and programs that are in use",
+   "Holding start-up instructions that stay when power is off",
+   "Storing the user's photos, videos and documents long term",
+   "Connecting the computer to the internet through a router"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does antivirus software do?",
+  "options": [
+   "Makes the internet connection run much faster",
+   "Creates a backup copy of every single file",
+   "Scans for malicious software and removes it",
+   "Blocks every email message from strangers"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A logo must be printed on a small badge and on a huge banner. Which is the best choice?",
+  "options": [
+   "A GIF of 100 by 100 pixels",
+   "A small JPEG image",
+   "An SVG vector image",
+   "A PNG of 50 by 50 pixels"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A1:A4 hold 23, 17, 31 and 9. What does =MAX(A1:A4)-MIN(A1:A4) give?",
+  "options": [
+   "8",
+   "100",
+   "22",
+   "31"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What does the S in HTTPS stand for?",
+  "options": [
+   "Speed",
+   "Server",
+   "Storage",
+   "Secure"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "for i in range(2, 11, 2): print(i). How many numbers are printed?",
+  "options": [
+   "9",
+   "10",
+   "5",
+   "4"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "What is the purpose of the alt attribute on an img tag?",
+  "options": [
+   "It gives a text description of the image",
+   "It sets the name of the picture file on disk",
+   "It turns the picture into a clickable link",
+   "It changes the width and height of the picture"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which data type is best for storing a price such as 4.99?",
+  "options": [
+   "Date",
+   "Integer (whole number)",
+   "Real (decimal number)",
+   "Boolean (true or false)"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which character must a spreadsheet formula start with?",
+  "options": [
+   "= (equals sign)",
+   "& (ampersand)",
+   "# (hash sign)",
+   "? (question mark)"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A1:C3 hold P1, Pen, 0.5 / P2, Ruler, 1.2 / P3, Bag, 12 (one item per row). What does =VLOOKUP(\"P2\",A1:C3,3,FALSE) return?",
+  "options": [
+   "P2",
+   "12",
+   "1.2",
+   "Ruler"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which format is best for a photograph that needs a small file size?",
+  "options": [
+   "JPEG",
+   "GIF",
+   "SVG",
+   "Plain text"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is malware?",
+  "options": [
+   "A website that sells computer parts",
+   "A program that makes a computer run faster",
+   "Software designed to harm a computer or steal data",
+   "A cable that joins a computer to a router"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which best describes artificial intelligence (AI)?",
+  "options": [
+   "Any computer or phone that is connected to the internet",
+   "A special type of cable used to join two networks",
+   "Computer systems that do tasks needing human intelligence",
+   "A program that can only add up and compare numbers"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A flash drive has 64 GB free and each video is 2 GB. How many whole videos can it hold?",
+  "options": [
+   "128",
+   "32",
+   "62",
+   "16"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which of these is raw data?",
+  "options": [
+   "The numbers 12, 15, 9 and 14",
+   "A graph of the best-selling items",
+   "A report that class 8B improved",
+   "A sentence saying sales rose by 10%"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why should a phone number such as 0771 234 567 be stored as text and not as an integer?",
+  "options": [
+   "It is never used in sums and a leading 0 would be lost",
+   "Integers cannot store numbers that have more than five digits",
+   "Phone numbers always contain letters as well as digits",
+   "Text always uses less storage space than integers do"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which line correctly shows the picture cat.jpg with the alternative text 'A grey cat'?",
+  "options": [
+   "<image src=\"cat.jpg\" alt=\"A grey cat\">",
+   "<img src=\"cat.jpg\" alt=\"A grey cat\">",
+   "<img href=\"cat.jpg\" alt=\"A grey cat\">",
+   "<img src=\"cat.jpg\" text=\"A grey cat\">"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which image format is limited to 256 colours and can store a simple animation?",
+  "options": [
+   "SVG",
+   "GIF",
+   "PNG",
+   "JPEG"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which of these is primary storage?",
+  "options": [
+   "Hard disk drive",
+   "RAM",
+   "Solid-state drive",
+   "DVD"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which malware locks a user's files and demands payment to unlock them?",
+  "options": [
+   "Spyware",
+   "Adware",
+   "A firewall program",
+   "Ransomware"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ }
+]

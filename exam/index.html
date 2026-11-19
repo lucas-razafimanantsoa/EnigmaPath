@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/exam.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" id="brand" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#71899b"/><circle cx="52" cy="14" r="5" fill="#e8e9e2"/></svg>
+      <span>EnigmaPath<small>Exam</small></span>
+    </a>
+    <div class="ep-topbar__right"><span class="badge" id="who-badge" hidden></span></div>
+  </header>
+
+  <main class="ep-main">
+    <!-- START -->
+    <section id="screen-start" class="narrow">
+      <p class="eyebrow">Exam</p>
+      <h1 class="page-title">Ready for your test?</h1>
+      <div class="card" id="server-warning" hidden>
+        <h2>Start the EnigmaPath server first</h2>
+        <p class="muted">The exam must be opened through the server so that your result can be saved. Double-click <b>start.bat</b> (Windows) or <b>start.sh</b> (Linux/macOS) in the EnigmaPath folder, then use the page that opens.</p>
+      </div>
+      <div class="card resume" id="resume-card" hidden>
+        <h2>You have an exam in progress</h2>
+        <p class="muted" id="resume-text"></p>
+        <div class="row"><button class="btn btn--primary" id="resume-btn" type="button">Continue the exam</button><button class="btn btn--danger" id="discard-btn" type="button">Discard it</button></div>
+      </div>
+      <form class="card form" id="start-form" novalidate>
+        <div class="field">
+          <label for="exam-select">Exam</label>
+          <select id="exam-select"></select>
+          <p class="hint" id="exam-desc"></p>
+        </div>
+        <div class="field">
+          <label for="student-name">Your name</label>
+          <input id="student-name" type="text" maxlength="80" autocomplete="off" spellcheck="false" placeholder="First name and surname">
+        </div>
+        <div class="field">
+          <label for="student-grade">Your grade</label>
+          <select id="student-grade"><option value="">Choose your grade…</option></select>
+        </div>
+        <p class="form-error" id="start-error" role="alert" hidden></p>
+        <button class="btn btn--primary btn--large" type="submit" id="start-btn">Start the exam →</button>
+        <ul class="rules hint">
+          <li>You will not be told if an answer is right or wrong until the end.</li>
+          <li>You can go back and change answers before you submit.</li>
+          <li>Questions come in a different order for each student.</li>
+        </ul>
+      </form>
+    </section>
+
+    <!-- QUESTION -->
+    <section id="screen-question" hidden>
+      <div class="card q-head">
+        <div class="q-head__top">
+          <div><p class="eyebrow" id="q-exam-title"></p><h2 id="q-progress">Question 1 of 1</h2></div>
+          <button class="btn btn--small" id="btn-overview" type="button">Overview &amp; submit</button>
+        </div>
+        <div class="progress"><div class="progress__fill" id="q-fill"></div></div>
+        <div class="strip" id="q-strip" aria-label="Question numbers"></div>
+      </div>
+      <div class="card q-card">
+        <div class="maze-panel" id="maze-panel" hidden>
+          <h3 id="maze-title"></h3>
+          <p class="muted" id="maze-intro"></p>
+          <div class="maze-figure" id="maze-figure"></div>
+          <p class="hint">The arrow marks the start and the way the robot faces (S) · G = goal · the dark blue squares are walls.</p>
+        </div>
+        <h2 class="question-text" id="q-text" tabindex="-1"></h2>
+        <div class="options" id="q-options" role="radiogroup" aria-labelledby="q-text"></div>
+      </div>
+      <div class="card q-nav">
+        <button class="btn btn--ghost" id="btn-prev" type="button">← Previous</button>
+        <span class="hint keys">Keys: <kbd>1</kbd>–<kbd>6</kbd> choose · <kbd>←</kbd><kbd>→</kbd> move</span>
+        <button class="btn btn--primary" id="btn-next" type="button">Next →</button>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section id="screen-overview" class="narrow" hidden>
+      <div class="card">
+        <p class="eyebrow">Almost done</p>
+        <h1 class="page-title">Check your answers</h1>
+        <p class="muted" id="ov-summary"></p>
+        <div class="strip strip--big" id="ov-strip"></div>
+        <p class="form-error" id="submit-error" role="alert" hidden></p>
+        <div class="row">
+          <button class="btn" id="ov-back" type="button">← Back to the questions</button>
+          <button class="btn btn--primary btn--large" id="ov-submit" type="button">Submit my exam</button>
+        </div>
+        <p class="hint">After you submit you cannot change your answers.</p>
+      </div>
+    </section>
+
+    <!-- RESULT -->
+    <section id="screen-result" class="narrow" hidden>
+      <div class="card result-card">
+        <p class="eyebrow">Exam finished</p>
+        <h1 class="page-title" id="res-title"></h1>
+        <div class="score-ring" id="res-ring"><span class="score-ring__value" id="res-score"></span><span class="score-ring__percent" id="res-percent"></span></div>
+        <p class="result-message" id="res-message"></p>
+        <p class="hint" id="res-saved"></p>
+        <div class="review" id="res-review"></div>
+        <button class="btn btn--primary" id="res-done" type="button">Finish</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ep-footer">Lucas M.R 2026, with vibes</footer>
+
+  <script src="../shared/maze-lib.js"></script>
+  <script src="../shared/exam-core.js"></script>
+  <script src="js/exam.js"></script>
+</body>
+</html>

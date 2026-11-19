@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Quiz | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html" aria-label="EnigmaPath home">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#71899b"/><circle cx="52" cy="14" r="5" fill="#e8e9e2"/></svg>
+      <span>EnigmaPath<small>Practice Quiz</small></span>
+    </a>
+    <div class="ep-topbar__right"><span class="badge" id="ctx-badge" hidden></span></div>
+  </header>
+
+  <main class="ep-main">
+    <!-- SETUP -->
+    <section id="screen-setup">
+      <p class="eyebrow">Practice quiz</p>
+      <h1 class="page-title">Choose your level</h1>
+      <p class="muted lede">Ten levels, from first steps to exam-style ICT. Answer a question and you see straight away whether you were right.</p>
+      <div class="level-grid" id="level-grid"></div>
+
+      <form class="card setup-card" id="setup-form" novalidate>
+        <div class="setup-grid">
+          <div class="field">
+            <label for="difficulty">Difficulty</label>
+            <select id="difficulty">
+              <option value="Mixed">Mixed</option>
+              <option value="Term 1">Easy</option>
+              <option value="Term 2">Medium</option>
+              <option value="Term 3">Hard</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="count">Number of questions</label>
+            <input id="count" type="number" min="1" max="100" value="20">
+          </div>
+          <label class="check"><input type="checkbox" id="revision"> Revision: also include questions from earlier levels</label>
+        </div>
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+        <div class="setup-actions">
+          <button class="btn btn--primary btn--large" type="submit" id="btn-start">Start Level 1 →</button>
+          <span class="hint" id="bank-status"></span>
+        </div>
+      </form>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="screen-quiz" hidden>
+      <div class="card quiz-head">
+        <div class="quiz-head__top">
+          <h2 id="progress-label">Question 1 of 20</h2>
+          <button class="btn btn--danger btn--small" id="end-quiz" type="button">End quiz</button>
+        </div>
+        <div class="progress" id="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0"><div class="progress__fill" id="progress-fill"></div></div>
+      </div>
+      <div class="card question-card">
+        <div class="question-meta"><span class="badge" id="question-level">Level 1</span><span class="badge" id="question-diff">Easy</span></div>
+        <h2 class="question-text" id="question-text" tabindex="-1"></h2>
+        <div class="options" id="options" role="radiogroup" aria-labelledby="question-text"></div>
+        <div class="feedback" id="feedback" role="status" aria-live="polite" hidden></div>
+      </div>
+      <div class="card quiz-nav">
+        <button class="btn btn--ghost" id="prev-btn" type="button">← Previous</button>
+        <p class="hint keys">Keys: <kbd>1</kbd>–<kbd>4</kbd> answer · <kbd>←</kbd><kbd>→</kbd> navigate</p>
+        <button class="btn btn--primary" id="next-btn" type="button">Next →</button>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="screen-results" hidden>
+      <div class="card results-card">
+        <p class="eyebrow">Quiz complete</p>
+        <h1 class="page-title" id="results-title">Your result</h1>
+        <div class="score-ring" id="score-ring"><span class="score-ring__value" id="score-value">0 / 0</span><span class="score-ring__percent" id="score-percent">0%</span></div>
+        <p class="result-message" id="result-message"></p>
+        <p class="hint" id="result-best"></p>
+        <div class="stats">
+          <div class="stat stat--ok"><b id="correct-count">0</b><span>Correct</span></div>
+          <div class="stat stat--bad"><b id="incorrect-count">0</b><span>Incorrect</span></div>
+          <div class="stat"><b id="unattempted-count">0</b><span>Skipped</span></div>
+        </div>
+        <div class="results-actions">
+          <button class="btn btn--primary" id="review-btn" type="button">Review answers</button>
+          <button class="btn" id="again-btn" type="button">Try again</button>
+          <button class="btn btn--ghost" id="levels-btn" type="button">Choose another level</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section id="screen-review" hidden>
+      <div class="card review-card">
+        <div class="review-head">
+          <h1 class="page-title">Your answers</h1>
+          <button class="btn btn--ghost" id="back-results" type="button">← Back to result</button>
+        </div>
+        <div id="review-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ep-footer">Lucas M.R 2026, with vibes</footer>
+
+  <script src="data/questions.js"></script>
+  <script src="js/quiz.js"></script>
+</body>
+</html>

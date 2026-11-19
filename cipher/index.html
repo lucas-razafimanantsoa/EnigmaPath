@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#141e2b">
+  <meta name="description" content="Enigmatica is a portable, client-side cipher lab for encrypting, decrypting, and cracking Caesar and Vigenère ciphers.">
+  <title>Enigmatica Cipher Lab | EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="bg-layer" aria-hidden="true"></div>
+  <a class="skip-link" href="#app">Skip to content</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/" aria-label="Enigmatica home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">Enigmatica</span>
+        <span class="brand-tag">cipher lab</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#/" data-nav="home">home</a>
+        <a href="#/caesar" data-nav="caesar">caesar</a>
+        <a href="#/vigenere" data-nav="vigenere">vigenère</a>
+        <a href="#/crack" data-nav="crack">no-key</a>
+        <a href="../index.html" class="hub-link">← EnigmaPath</a>
+      </nav>
+
+      <div class="topbar-status" aria-label="Application status">
+        <span class="status-dot"></span>
+        <span>local</span>
+        <span class="status-sep">/</span>
+        <span>offline</span>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <noscript>
+    <div class="noscript">
+      Enigmatica needs JavaScript to run the cipher engine. Enable it and reload the page.
+    </div>
+  </noscript>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark small" aria-hidden="true"></span>
+        <div>
+          <div class="footer-title">Enigmatica</div>
+          <div class="footer-copy">Lucas M.R 2026, with vibes</div>
+        </div>
+      </div>
+
+      <nav class="footer-links" aria-label="Cipher field notes">
+        <span class="footer-label">field notes</span>
+        <a href="#/learn/caesar">how caesar works</a>
+        <a href="#/learn/vigenere">how vigenère works</a>
+        <a href="#/learn/kasiski">kasiski examination</a>
+        <a href="#/about">about</a>
+      </nav>
+
+      <div class="footer-meta">
+        <span>part of EnigmaPath</span>
+        <span class="footer-sep">·</span>
+        <span>no data leaves this tab</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast-stack" id="toast-stack" aria-live="polite" aria-atomic="false"></div>
+
+  <script src="js/ciphers.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/pages.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

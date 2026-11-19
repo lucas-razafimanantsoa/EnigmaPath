@@ -1,0 +1,1102 @@
+[
+ {
+  "question_text": "Which component inside a computer allows it to be connected to a network?",
+  "options": [
+   "Network card",
+   "Graphics card",
+   "Sound card",
+   "Memory card"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A school has computers in several rooms of one building joined together. What type of network is this?",
+  "options": [
+   "Extranet",
+   "Internet",
+   "LAN",
+   "WAN"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A bank links its branches in different countries using leased telecommunication lines. What type of network is this?",
+  "options": [
+   "Bluetooth",
+   "WLAN",
+   "LAN",
+   "WAN"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which device sends data packets only to the computer they are addressed to on a LAN?",
+  "options": [
+   "Hub",
+   "Switch",
+   "Web server",
+   "Modem"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which device is used to connect a home network to the internet and direct data between the two networks?",
+  "options": [
+   "Hub",
+   "Repeater",
+   "Network interface card",
+   "Router"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the main job of a modem?",
+  "options": [
+   "To give every device on a LAN its own unique address",
+   "To store web pages and send them to other computers on request",
+   "To convert signals for use on telephone or cable lines",
+   "To block unauthorised access to a network from the internet"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is the most suitable use of Bluetooth?",
+  "options": [
+   "Connecting a mobile phone to a pair of wireless earphones",
+   "Linking two offices in different cities",
+   "Hosting a website for customers",
+   "Connecting a school to its internet provider"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is the best way to keep a network password secure?",
+  "options": [
+   "Use the same password for every account",
+   "Change it regularly and never share it",
+   "Write it on a note stuck to the monitor",
+   "Choose your own name followed by a 1"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A company wants to stop unauthorised users on the internet from reaching its internal network. What should it install?",
+  "options": [
+   "A webcam",
+   "A firewall",
+   "A modem",
+   "A hub"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A bank wants to protect customers' card details while they are sent over the internet. What should it use?",
+  "options": [
+   "Spell checking",
+   "Defragmentation",
+   "Encryption",
+   "Data compression"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does VoIP allow a user to do?",
+  "options": [
+   "Store files on a remote server",
+   "Print documents on a remote printer",
+   "Send paper documents down a phone line",
+   "Make voice calls over the internet"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which describes a fax machine?",
+  "options": [
+   "It sends a copy of a document over a phone line",
+   "It lets two people see each other over the internet",
+   "It connects a computer to a wireless network",
+   "It sends a short text message between mobile phones"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which hardware is needed for a person to take part in a video conference?",
+  "options": [
+   "Scanner, plotter, joystick and a mouse",
+   "Barcode reader, light pen and a laser printer",
+   "Webcam, microphone, speakers and a screen",
+   "Graphics tablet, trackerball and a keyboard"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is the purpose of a wireless access point?",
+  "options": [
+   "To let wireless devices join a wired network",
+   "To protect a network from computer viruses",
+   "To convert digital data into sound for phone lines",
+   "To store the files of every user on the network"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is a MAC address?",
+  "options": [
+   "An address given to a website by its host",
+   "A password used to log in to a network",
+   "The email address of a network manager",
+   "A unique code built into a network card"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement describes a thin client?",
+  "options": [
+   "It has its own powerful processor and large hard disk",
+   "It relies on a server for most of its processing and storage",
+   "It can only be used with a wireless connection",
+   "It stores all of the network's data locally"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which statement describes a thick client?",
+  "options": [
+   "It can process data and hold its own software and files",
+   "It is a server that supplies files to other computers",
+   "It is a router that joins two networks",
+   "It has no storage and needs a server to start"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is an advantage of cloud storage for a student?",
+  "options": [
+   "Files are automatically stored on a USB stick",
+   "Files can be opened on any device even when offline",
+   "Files can be reached from any device that has internet access",
+   "Files can never be lost or deleted by accident"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is an intranet?",
+  "options": [
+   "A website that sells goods to customers online",
+   "A private network for use by the members of an organisation only",
+   "A public network that anyone in the world can join",
+   "A network that connects only two computers by a cable"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A company allows its suppliers to log in to part of its private network. What is this called?",
+  "options": [
+   "A WLAN",
+   "The internet",
+   "A web conference",
+   "An extranet"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What is the main idea behind a VPN?",
+  "options": [
+   "To make a slow network connection run much faster than before",
+   "To store a copy of all files on the internet",
+   "To create a secure, encrypted link over a public network",
+   "To stop users from receiving email"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does a network bridge do?",
+  "options": [
+   "It connects two separate LANs or network segments together",
+   "It gives wireless access to portable devices",
+   "It converts the signal for use on telephone lines",
+   "It scrambles all data sent over the network"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is a disadvantage of using a network of computers?",
+  "options": [
+   "Users cannot share a printer between computers",
+   "A virus can spread quickly from one connected computer to others",
+   "Users must keep all of their files on their own hard disk",
+   "Software cannot be installed centrally"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is an advantage of video conferencing for a company?",
+  "options": [
+   "It works without any internet connection",
+   "It removes the time differences between two countries",
+   "It prevents anyone from overhearing the meeting",
+   "It reduces travel costs for the staff who attend meetings"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In an email, what is the effect of adding an address in the Bcc field?",
+  "options": [
+   "The person receives only the attachments of the email",
+   "The person receives the email before all other recipients",
+   "The person gets a copy but other recipients cannot see the address",
+   "The person receives the email in an encrypted form"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How do the internet and the World Wide Web differ?",
+  "options": [
+   "The internet is the pages; the web is the cabling",
+   "The internet is the network; the web is the pages that use it",
+   "They are two names for exactly the same thing",
+   "The web is the private network; the internet is public"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A network manager gives different staff different access rights. What is the benefit?",
+  "options": [
+   "Users can see only the files that they are allowed to use",
+   "Files are copied to each computer automatically",
+   "Users no longer need to change their passwords regularly",
+   "Every user can change any file on the network"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A school replaces a hub with a switch. What is the main effect on the network?",
+  "options": [
+   "Data is sent to every device, so all can check it",
+   "The network can then work without any cables",
+   "All data is encrypted before it is sent",
+   "Data goes only to the intended device"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A hacker intercepts an encrypted message. Why can the hacker not make use of it?",
+  "options": [
+   "Encryption stops the message from being intercepted",
+   "The firewall removes the message from the line",
+   "Without the decryption key it cannot be understood",
+   "The message is deleted as soon as it is intercepted"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a disadvantage of Wi-Fi compared with a wired connection?",
+  "options": [
+   "It cannot be used with laptop computers",
+   "Devices must be plugged in to a cable to connect to it",
+   "Only one device can use the network at a time",
+   "The signal can suffer interference or be intercepted by others"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 600 MB file is sent over a network at a steady 80 megabits per second. How long does the transfer take?",
+  "options": [
+   "60 seconds",
+   "7.5 seconds",
+   "75 seconds",
+   "480 seconds"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A 250 MB video is downloaded at a steady 50 megabits per second. How long does it take?",
+  "options": [
+   "25 seconds",
+   "40 seconds",
+   "200 seconds",
+   "5 seconds"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "In a school using thin clients, the central server stops working. What is the most likely result?",
+  "options": [
+   "Students cannot use their computers until it is restored",
+   "Each thin client carries on working normally",
+   "Only the printers stop working, all else carries on",
+   "The thin clients become thick clients"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A company stores its files with a cloud provider. Which is a risk of this?",
+  "options": [
+   "Files take up all the space on every staff computer",
+   "Files can only be opened by one person at a time",
+   "Files could be exposed if the account is hacked",
+   "Files cannot be shared with other staff"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A company wants staff to reach its private network securely from their homes. Which is the best solution?",
+  "options": [
+   "Use a hub",
+   "Use a VPN",
+   "Send files by fax",
+   "Use a public Wi-Fi hotspot"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about Wi-Fi and Bluetooth is correct?",
+  "options": [
+   "Bluetooth covers a longer range than Wi-Fi in general",
+   "Wi-Fi can only join two devices at the same time",
+   "Bluetooth needs a router but Wi-Fi does not",
+   "Wi-Fi has a longer range and is usually faster"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which household device contains a microprocessor?",
+  "options": [
+   "A hand-operated can opener",
+   "A wooden clothes peg",
+   "An ordinary electric light bulb",
+   "A programmable washing machine"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which health problem is caused by repeated typing and mouse use over a long time?",
+  "options": [
+   "Sunburn from sitting by a window",
+   "Repetitive strain injury",
+   "Food poisoning from stale snacks",
+   "Hearing damage from loud music"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which action helps to reduce eye strain when using a computer?",
+  "options": [
+   "Use the computer in a completely dark room",
+   "Increase screen brightness to the maximum",
+   "Take regular breaks away from the screen",
+   "Place the screen very close to your face"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is the best way to reduce back and neck problems when using a computer?",
+  "options": [
+   "Use an adjustable chair with the screen at eye level",
+   "Sit on a soft sofa with the laptop resting on your knees",
+   "Place the screen on the floor beside you",
+   "Sit on a low stool without any support for the back"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which safety risk is caused by trailing cables across a classroom floor?",
+  "options": [
+   "People could get repetitive strain injury",
+   "People could lose their data",
+   "People could trip over them",
+   "People could get eye strain"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is a safety risk caused by plugging too many devices into one socket?",
+  "options": [
+   "Eye strain",
+   "Fire",
+   "Neck pain",
+   "Data loss"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is an advantage of online shopping for a customer?",
+  "options": [
+   "Goods arrive in the shopping basket at once",
+   "Goods can be examined before buying",
+   "There are no delivery charges",
+   "Shops are open 24 hours a day"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is an advantage of online banking for a customer?",
+  "options": [
+   "Accounts can be checked from home at any time of day",
+   "Cash can be taken out directly through the website",
+   "Passwords are no longer needed",
+   "There is no risk of fraud"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is a negative environmental effect of ICT?",
+  "options": [
+   "Video conferencing means that people travel less",
+   "Old computers can leave toxic materials in landfill",
+   "Documents can be stored electronically instead of on paper",
+   "Home working reduces the need for office space"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which job has been created because of the growth of ICT?",
+  "options": [
+   "Typewriter repairer",
+   "Telephone switchboard operator",
+   "Web designer",
+   "Film developer"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What does teleworking mean?",
+  "options": [
+   "Working from home and keeping in touch with the employer by ICT",
+   "Working in an office where phones are used for calls",
+   "Working in a shop that sells telephones",
+   "Working on a night shift in a factory"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How has online shopping affected high-street shops?",
+  "options": [
+   "Many have opened because more customers visit them",
+   "They have all become warehouses",
+   "They no longer need to sell goods",
+   "Many have closed because fewer customers visit them"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "How has the use of ATMs and online banking affected banks?",
+  "options": [
+   "Cash is no longer needed by anyone",
+   "Fewer branches and counter staff are needed",
+   "Customers can no longer complain",
+   "More branches have been opened in every town"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is a disadvantage of online shopping for a customer?",
+  "options": [
+   "Shops are only open during the daytime hours",
+   "Customers must travel to a shop in order to pay",
+   "Prices cannot be compared between different shops",
+   "Goods cannot be touched or tried on first"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is a disadvantage of online banking?",
+  "options": [
+   "Criminals may trick users into giving login details",
+   "Customers must travel to the bank to check balances",
+   "Customers cannot pay their bills through the website",
+   "The bank is closed at night and at weekends"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is an advantage to a business of selling online rather than in a shop?",
+  "options": [
+   "It cannot be affected by computer failure",
+   "It does not need to deliver goods to anyone",
+   "It can reach customers in many countries",
+   "It does not need a website or computers"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A worker types all day and has pain in the wrists and fingers. Which health problem and remedy match?",
+  "options": [
+   "Eye strain; use a larger monitor",
+   "RSI; take breaks and use a wrist rest",
+   "Back pain; use a wireless mouse and keyboard",
+   "Headache; keep the room dark"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A student has headaches and sore eyes after long hours at a computer. Which two actions would help most?",
+  "options": [
+   "Use an anti-glare screen and take breaks",
+   "Use a footrest and an adjustable chair",
+   "Use a wrist rest and an ergonomic keyboard",
+   "Use a cable duct and a surge protector"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A factory replaces assembly workers with robots. Which is a likely effect on employment?",
+  "options": [
+   "More jobs for unskilled workers on the assembly line",
+   "No change in the skills needed by anyone",
+   "Fewer unskilled jobs but more jobs for skilled technicians",
+   "No need for anyone to maintain the machines"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a disadvantage for an employee who teleworks?",
+  "options": [
+   "Needing to pay for an office",
+   "Having to travel long distances to work",
+   "Being unable to work flexible hours",
+   "Feeling isolated from colleagues"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a negative environmental effect of online shopping?",
+  "options": [
+   "Customers drive less to out-of-town shops",
+   "Fewer shops need to be heated and lit",
+   "Receipts are sent by email instead of paper",
+   "More packaging and delivery journeys"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A smart washing machine senses the weight of the load and adjusts the amount of water. What is the main benefit?",
+  "options": [
+   "It saves water and energy",
+   "It removes the need for electricity",
+   "It never needs to be cleaned",
+   "It can be used without detergent"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A bank closes most of its branches and offers only online and ATM services. Which group is most disadvantaged?",
+  "options": [
+   "Customers who already use online banking every week",
+   "Customers who work from home",
+   "Elderly customers who have no access to the internet",
+   "Customers who own a smartphone"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is the best reason why ICT has led to some deskilling of workers?",
+  "options": [
+   "Workers now need to be trained in more tasks",
+   "Machines now do many tasks once needing trained workers",
+   "Computers are too complicated for most workers to use",
+   "Fewer machines are used than before"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A company encourages staff to use video conferencing rather than travelling to meetings. Which is the main benefit to the environment?",
+  "options": [
+   "Meetings last longer so computers stay on",
+   "More paper is used for printed reports",
+   "Fewer journeys, so less fuel is used",
+   "Computers use less electricity than lights do"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which input method turns a scanned page of printed text into text that can be edited?",
+  "options": [
+   "OMR",
+   "RFID",
+   "MICR",
+   "OCR"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which method is commonly used to read the pencil marks on a multiple-choice exam answer sheet?",
+  "options": [
+   "VoIP",
+   "OMR",
+   "GPS",
+   "OCR"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which technology uses radio waves to identify a tag attached to an item?",
+  "options": [
+   "RFID",
+   "Barcode",
+   "OMR",
+   "OCR"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is an example of a biometric method of identifying a person?",
+  "options": [
+   "Fingerprint scan",
+   "A secret password",
+   "A magnetic swipe card",
+   "A four-digit PIN code"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which sensor would be used by a burglar alarm to detect a person moving in a room?",
+  "options": [
+   "Temperature sensor",
+   "Moisture sensor",
+   "pH sensor",
+   "Infrared sensor"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is data logging?",
+  "options": [
+   "Typing the readings into a spreadsheet by hand every hour",
+   "Sending an email with the readings attached",
+   "Collecting readings from sensors automatically over time",
+   "Printing a graph of the readings on paper"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a customer do when paying with chip and PIN?",
+  "options": [
+   "Signs a paper receipt and shows some photo identity",
+   "Inserts the card into a reader and then types in a PIN",
+   "Holds a barcode up to a scanner",
+   "Writes the card number on a form"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does EFT stand for?",
+  "options": [
+   "Electronic funds transfer",
+   "Electronic file transfer",
+   "External funds terminal",
+   "Efficient fast transaction"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What does a barcode reader do at a shop checkout?",
+  "options": [
+   "Reads the customer's PIN and checks it with their bank",
+   "Prints the receipt for the customer",
+   "Reads the code so the computer can find the product price",
+   "Counts the money in the till"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Which is an example of a smart home feature?",
+  "options": [
+   "Writing a shopping list on paper",
+   "Switching on the heating from a phone app while on holiday",
+   "Turning off a light using a wall switch by the door",
+   "Opening the curtains by hand"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "What is an expert system?",
+  "options": [
+   "A computer used only by qualified IT experts at work",
+   "A machine that repairs other computers when they fail",
+   "A program that checks the spelling and grammar of text",
+   "Software that uses rules to give expert advice"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "Why are flight simulators used to train pilots?",
+  "options": [
+   "They are less realistic than real flying but more exciting",
+   "Mistakes can be made without real danger",
+   "They allow pilots to carry passengers",
+   "They make the real aircraft unnecessary"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 1"
+ },
+ {
+  "question_text": "A teacher uses a spreadsheet model to plan a school trip. What is the main benefit of using a model?",
+  "options": [
+   "It prints the tickets for the students",
+   "It books the coach and pays for it automatically",
+   "Changing a value shows the effect straight away",
+   "It stops mistakes in the data being typed in"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a computer-controlled traffic light system, what is the job of the sensors?",
+  "options": [
+   "To detect vehicles and signal the microprocessor",
+   "To show a countdown to drivers",
+   "To store the timings for the lights",
+   "To change the lights directly without a processor"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a central heating system, what does the microprocessor do with the temperature sensor data?",
+  "options": [
+   "Stores every reading permanently on a hard disk and stops",
+   "Sends it back to the sensor so that it can be displayed",
+   "Changes the preset value automatically",
+   "Compares it with a preset value and controls the boiler"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which is an actuator in an automatic greenhouse?",
+  "options": [
+   "A moisture sensor in the soil bed",
+   "A light sensor above the plants",
+   "A temperature sensor near the roof",
+   "A motor that opens the window"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does a computer need an analogue-to-digital converter when using a temperature sensor?",
+  "options": [
+   "The computer produces analogue readings but the sensor needs digital data",
+   "The sensor gives analogue readings but the computer needs digital data",
+   "The sensor sends its readings as text to the computer",
+   "The converter cools the sensor so it works well"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which method allows a bank's computer to read the account number printed in magnetic ink on a cheque?",
+  "options": [
+   "OMR",
+   "RFID",
+   "MICR",
+   "Chip and PIN"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A customer pays by holding a card near a reader without entering a PIN. What is this payment called?",
+  "options": [
+   "Contactless payment",
+   "Cash withdrawal",
+   "Chip and PIN payment",
+   "Cheque payment"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "What happens during EFTPOS?",
+  "options": [
+   "Money is moved electronically between bank accounts",
+   "Cash is paid into the shop's till by an automatic machine",
+   "A cheque is sent to the shop's bank through the post",
+   "A barcode is printed on the receipt"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "In a stock control system, what usually happens when an item is sold and the stock falls to the reorder level?",
+  "options": [
+   "The price is automatically halved",
+   "An order for more stock is produced automatically",
+   "The item is deleted from the product file for good",
+   "The shop is closed until new stock arrives"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Why does an online booking system for theatre seats avoid double booking?",
+  "options": [
+   "Each seat is sold to two customers on purpose",
+   "Customers choose seats by telephone only",
+   "Seats are booked on paper forms at the theatre box office",
+   "The seat record is updated as soon as a seat is sold"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A school surveys 500 students with a paper form where answers are marked in boxes. Why is OMR used?",
+  "options": [
+   "Handwritten answers are converted into editable text",
+   "Every answer is checked by hand by a team of teachers",
+   "Answers can be read quickly and accurately by computer",
+   "Students can leave out any questions they dislike entirely"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "A hospital patient is monitored by sensors. What does the system do if a reading goes outside safe limits?",
+  "options": [
+   "Deletes the reading from the record",
+   "Waits for the patient to press a call button",
+   "Sounds an alarm to alert the medical staff",
+   "Stops recording any more readings"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 2"
+ },
+ {
+  "question_text": "Which part of an expert system applies the rules to the facts given by the user to reach a conclusion?",
+  "options": [
+   "The inference engine",
+   "The knowledge base",
+   "The user interface",
+   "The rule base"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a limitation of a medical expert system?",
+  "options": [
+   "It cannot be updated with any new information",
+   "It can only give answers in one language",
+   "It needs a doctor to run the program",
+   "It cannot cope with cases outside its rules"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A microprocessor-controlled greenhouse has a preset minimum of 18 °C. The sensor reads 15 °C. What happens?",
+  "options": [
+   "The microprocessor switches the heater off",
+   "The microprocessor switches the heater on",
+   "The microprocessor opens the window",
+   "The microprocessor stores the reading and does nothing else"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How does a control system differ from a data-logging system?",
+  "options": [
+   "A control system uses readings to change outputs",
+   "A control system only stores the readings",
+   "A data-logging system always switches devices on and off",
+   "A data-logging system never uses sensors"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which statement about a fingerprint scanner used to enter a building is correct?",
+  "options": [
+   "It only works for users who are wearing gloves",
+   "It cannot be forgotten, but an injured finger may fail",
+   "It can be used by anyone who knows the user's name",
+   "It is cheaper than a password and never makes mistakes"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "How does a GPS receiver work out its position?",
+  "options": [
+   "From a map stored on the receiver only",
+   "From the speed shown on the dashboard",
+   "From signals sent by one mobile phone mast only",
+   "From signal timings from several satellites"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why might a delivery company fit GPS trackers to its vehicles?",
+  "options": [
+   "To increase the speed limit for the vehicle",
+   "To stop the vehicles from using fuel",
+   "To show managers where each vehicle is",
+   "To print delivery notes for customers"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a disadvantage of using a computer simulation to predict traffic flow?",
+  "options": [
+   "It cannot be repeated with different values",
+   "Results are only as accurate as the data and rules in the model",
+   "Experiments are dangerous for the public",
+   "It is more expensive than building a real road to test"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "At a supermarket checkout, which is the correct order of events after a barcode is scanned?",
+  "options": [
+   "Stock level updated, price found, product file searched",
+   "Price found, stock level updated, product file searched",
+   "Receipt printed, barcode scanned, price found",
+   "Product file searched, price found, stock updated"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is a chip and PIN card more secure than a card that uses only a magnetic stripe?",
+  "options": [
+   "The chip stores the shop's bank details securely",
+   "The PIN is printed on the card for checking",
+   "The chip is hard to copy and a PIN must also be known",
+   "The stripe is replaced by a signature"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a security risk of a smart home system that is controlled over the internet?",
+  "options": [
+   "A hacker could take control of the devices",
+   "The devices can only be used with a PIN",
+   "The devices can never be switched off again",
+   "The devices use no electricity"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is an RFID tag often better than a barcode for tracking pallets in a warehouse?",
+  "options": [
+   "It cannot store any information about the item",
+   "Many tags can be read at once from a distance without line of sight",
+   "It needs a person to hold each label under a scanner",
+   "It can only be read one at a time"
+  ],
+  "correct_answer_index": 1,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Why is Bluetooth unsuitable for connecting all the computers in a large school network?",
+  "options": [
+   "It can only be used to carry voice calls",
+   "It needs a separate telephone line for each device",
+   "It cannot be used to connect to computers",
+   "It has a short range and a fairly low data transfer rate"
+  ],
+  "correct_answer_index": 3,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "A manager changes the price in a spreadsheet model and the predicted profit changes automatically. What is this called?",
+  "options": [
+   "What-if analysis",
+   "A validation check",
+   "Automatic data logging",
+   "Public key encryption"
+  ],
+  "correct_answer_index": 0,
+  "term_category": "Term 3"
+ },
+ {
+  "question_text": "Which is a disadvantage of thick clients compared with thin clients in a large school?",
+  "options": [
+   "They cannot store any files of their own",
+   "They have no processor of their own",
+   "Software must be installed and updated on each computer separately",
+   "They stop working completely when the school server fails"
+  ],
+  "correct_answer_index": 2,
+  "term_category": "Term 3"
+ }
+]

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tower of Hanoi - EnigmaPath</title>
+  <link rel="icon" href="../shared/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../shared/theme.css">
+  <link rel="stylesheet" href="css/hanoi.css">
+</head>
+<body>
+  <header class="ep-topbar">
+    <a class="ep-brand" href="../index.html">
+      <svg class="ep-brand__mark" viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#141e2b"/>
+        <path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="#b2c1c5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="12" cy="46" r="5" fill="#71899b"/>
+        <circle cx="52" cy="14" r="5" fill="#e8e9e2"/>
+      </svg>
+      <span>EnigmaPath<small>Tower of Hanoi</small></span>
+    </a>
+  </header>
+
+  <main class="ep-main">
+    <div class="hanoi-intro">
+      <p class="eyebrow">Puzzle simulator</p>
+      <h1>Tower of Hanoi</h1>
+      <p class="muted">Move the whole stack to the third peg. One disc at a time, and never a bigger disc on a smaller one.</p>
+    </div>
+
+    <section class="card game" aria-label="Tower of Hanoi game">
+      <div class="stats" role="group" aria-label="Game counters">
+        <div class="stat"><span class="stat__label">Moves</span><span class="stat__value" id="stat-moves">0</span></div>
+        <div class="stat"><span class="stat__label">Minimum</span><span class="stat__value" id="stat-min">7</span></div>
+        <div class="stat"><span class="stat__label">Time</span><span class="stat__value" id="stat-time">0:00</span></div>
+        <div class="stat"><span class="stat__label">Best</span><span class="stat__value" id="stat-best">-</span></div>
+      </div>
+
+      <div class="board-frame">
+        <div class="board" id="board">
+          <button type="button" class="peg" data-peg="0" id="peg-0"><span class="peg__tag" aria-hidden="true"></span><span class="peg__label" aria-hidden="true"><kbd>1</kbd></span></button>
+          <button type="button" class="peg" data-peg="1" id="peg-1"><span class="peg__tag" aria-hidden="true"></span><span class="peg__label" aria-hidden="true"><kbd>2</kbd></span></button>
+          <button type="button" class="peg" data-peg="2" id="peg-2"><span class="peg__tag" aria-hidden="true"></span><span class="peg__label" aria-hidden="true"><kbd>3</kbd></span></button>
+          <div class="discs" id="discs" aria-hidden="true"></div>
+        </div>
+      </div>
+
+      <p class="status" id="status" role="status" aria-live="polite">Pick up the top disc of a peg, then choose where to put it.</p>
+      <p class="hint controls-hint">Click a peg to lift its top disc, then click another peg. Or drag a disc. Keyboard: <kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> to pick up / drop, <kbd>U</kbd> undo, <kbd>H</kbd> hint.</p>
+
+      <div class="controls">
+        <div class="controls__group">
+          <div class="field field--inline">
+            <label for="disc-count">Discs</label>
+            <select id="disc-count">
+              <option value="3" selected>3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn--primary" id="btn-new">New game</button>
+          <button type="button" class="btn" id="btn-undo">Undo</button>
+          <button type="button" class="btn" id="btn-reset">Reset</button>
+          <button type="button" class="btn" id="btn-hint">Hint</button>
+        </div>
+        <div class="controls__group controls__group--auto">
+          <button type="button" class="btn" id="btn-auto">Auto-solve</button>
+          <button type="button" class="btn btn--danger" id="btn-stop" hidden>Stop</button>
+          <div class="field field--inline">
+            <label for="speed">Speed</label>
+            <input type="range" id="speed" min="1" max="10" step="1" value="5">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <details class="card learn" id="learn">
+      <summary>How it works</summary>
+      <div class="learn__body">
+        <div class="learn__cols">
+          <section>
+            <h2>The rules</h2>
+            <ol>
+              <li>There are three pegs. All the discs start stacked on the first peg, smallest on top.</li>
+              <li>You may move only <strong>one disc at a time</strong>, and only the <strong>top</strong> disc of a peg.</li>
+              <li>You may <strong>never put a bigger disc on a smaller disc</strong>.</li>
+              <li>You win when the whole stack is on the third peg.</li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>The recursive idea</h2>
+            <p>To move <em>n</em> discs from peg A to peg C (using B as a helper):</p>
+            <ol>
+              <li>Move the top <em>n - 1</em> discs from A to B.</li>
+              <li>Move the largest disc from A to C.</li>
+              <li>Move the <em>n - 1</em> discs from B onto C.</li>
+            </ol>
+            <p>Steps 1 and 3 are the <em>same puzzle</em> again, just with one disc fewer. This goes on until there is only one disc, which can simply be moved. That easy case is called the <strong>base case</strong>.</p>
+            <pre class="code" aria-label="Pseudocode for the recursive solution">move(n, A, C, B):
+  if n = 0: stop            (base case)
+  move(n - 1, A, B, C)      (clear the way)
+  move disc n from A to C
+  move(n - 1, B, C, A)      (rebuild on top)</pre>
+          </section>
+        </div>
+
+        <div class="learn__cols">
+          <section>
+            <h2>How many moves? 2<sup>n</sup> - 1</h2>
+            <p>Let <em>M(n)</em> be the fewest moves for <em>n</em> discs. We move the small tower twice and the big disc once: <em>M(n) = 2 &times; M(n - 1) + 1</em>. That gives <em>M(n) = 2<sup>n</sup> - 1</em>. Every extra disc <strong>doubles</strong> the work (plus one).</p>
+            <div class="table-wrap">
+              <table class="moves-table" aria-label="Minimum moves for 1 to 8 discs">
+                <thead><tr><th scope="col">Discs (n)</th><th scope="col">Minimum moves</th><th scope="col">At 1 move per second</th></tr></thead>
+                <tbody id="moves-table-body"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section>
+            <h2>Link to algorithms and recursion</h2>
+            <ul>
+              <li><strong>Recursion:</strong> a function that solves a big problem by calling itself on a smaller copy of the problem, with a base case to stop.</li>
+              <li><strong>Divide and conquer:</strong> split the job into smaller jobs, solve them, and combine the answers.</li>
+              <li><strong>Exponential growth:</strong> the number of steps doubles with each disc. With 64 discs, at one move per second, the job would take about 585 billion years! Problems whose work explodes like this are hard for even the fastest computers.</li>
+              <li><strong>Hint and Auto-solve:</strong> they use the same idea, but start from <em>wherever the discs are now</em>. For the biggest disc that is not yet on its goal peg, first clear the smaller discs onto the spare peg, then move it.</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </details>
+  </main>
+
+  <div class="modal-backdrop" id="win-backdrop" hidden>
+    <div class="card modal win" id="win-modal" role="dialog" aria-modal="true" aria-labelledby="win-title" tabindex="-1">
+      <p class="eyebrow" id="win-eyebrow">Puzzle solved</p>
+      <h2 id="win-title">Well done!</h2>
+      <div class="win__stars" id="win-stars" hidden></div>
+      <p id="win-message"></p>
+      <dl class="win__stats">
+        <div><dt>Your moves</dt><dd id="win-moves">0</dd></div>
+        <div><dt>Minimum</dt><dd id="win-min">0</dd></div>
+        <div><dt>Time</dt><dd id="win-time">0:00</dd></div>
+      </dl>
+      <p class="win__record" id="win-record"></p>
+      <div class="modal__actions">
+        <button type="button" class="btn btn--primary" id="win-again">Play again</button>
+        <button type="button" class="btn" id="win-next">More discs</button>
+        <button type="button" class="btn btn--ghost" id="win-close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="ep-footer">Lucas M.R 2026, with vibes</footer>
+
+  <script src="js/hanoi-logic.js"></script>
+  <script src="js/hanoi.js"></script>
+</body>
+</html>
