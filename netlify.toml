@@ -1,0 +1,10 @@
+# EnigmaPath static site
+# Netlify can publish this repository directly: no build step, no server.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
