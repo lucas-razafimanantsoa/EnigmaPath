@@ -16,7 +16,11 @@ Any static file server works:
 python3 -m http.server 8080
 ```
 
-Then open <http://localhost:8080>. The site is also Netlify-ready with no build step.
+Then open <http://localhost:8080>.
+
+## Try online
+
+The app is also Netlify-ready with no build step, available for free at [EnigmaPath](https://enigmapath.netlify.app)
 
 ---
 
