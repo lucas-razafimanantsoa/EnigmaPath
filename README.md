@@ -1,57 +1,23 @@
-# EnigmaPath — static edition
+# EnigmaPath v0.1.0-static
 
-A small learning suite made of plain HTML, CSS and JavaScript: a practice quiz, a robot-programming maze game, a cipher lab, a Tower of Hanoi puzzle, four algorithm/maths labs, a fun-fact bank and a password-guessing game.
+A static app designed for students to practise online: quizzes, games and algorithm labs in plain HTML, CSS and JavaScript. There is no server, build step or account, and progress stays in the browser.
 
-This edition is made for static hosting. It has **no server, no build step and no backend**. Open `index.html` directly or deploy the repository root to any static host.
+The full app suite, including teacher features such as exam building and results, is at [lucas-razafimanantsoa/enigma-path-suite](https://github.com/lucas-razafimanantsoa/enigma-path-suite.git).
 
-## Deploy to Netlify
+## Mobile note
 
-The repository is Netlify-ready:
+Some features may be broken on phones and small screens. These issues will be fixed in future versions.
 
-1. In Netlify, choose **Add new site → Import an existing project** and select this repository.
-2. Leave the build command empty.
-3. Set the publish directory to `.` (already set in `netlify.toml`).
-4. Deploy.
+## Run locally
 
-Every page is served as-is. There is no configuration, database or environment variable to add.
-
-## The exam
-
-The exam is **not included in this static edition**. It needs the local Python server to load exams and save students' results, which a static site cannot do.
-
-Clicking the **Exam** tile on the home page shows the note:
-
-> Exam is only available on local server
-
-Use the separate local server version of EnigmaPath to take or build exams.
-
-## What is inside
-
-| Folder | App |
-|---|---|
-| `quiz/` | Practice Quiz — eight subjects, ten levels each |
-| `robot/` | Guide the Robot — program a route through a maze |
-| `cipher/` | Enigmatica Cipher Lab |
-| `hanoi/` | Tower of Hanoi |
-| `binary-search/` | Binary Search Lab |
-| `knights-tour/` | Knight's Tour |
-| `graph-color/` | Graph Colouring |
-| `huffman/` | Huffman Coding |
-| `codebreaker/` | Guess the Password |
-| `facts/` | Fun facts |
-| `about/` | About the app |
-| `shared/` | Theme, footer, maze library and small shared scripts |
-
-## Local preview
-
-Any static file server works, for example:
+Any static file server works:
 
 ```sh
 python3 -m http.server 8080
 ```
 
-Then open <http://localhost:8080>. Double-clicking `index.html` also works for most browsers.
+Then open <http://localhost:8080>. The site is also Netlify-ready with no build step.
 
 ---
 
-Lucas M.R 2026, with vibes.
+Made by [Lucas M.R](https://lucas-mirija-pf.netlify.app), 2026.

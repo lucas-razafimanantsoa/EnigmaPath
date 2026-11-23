@@ -31,6 +31,21 @@
       line-height: 0.94;
       font-weight: 600;
     }
+    .hero__version {
+      display: block;
+      width: fit-content;
+      margin-top: 14px;
+      padding: 4px 12px;
+      border: 1px solid var(--line-strong);
+      border-radius: 999px;
+      background: var(--bg-raised);
+      font-family: var(--font-mono);
+      font-size: clamp(11px, 1.2vw, 14px);
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      line-height: 1.4;
+      color: var(--soft);
+    }
     .hero__rule {
       width: 100%; max-width: 300px; height: 1px; border: 0; margin: 2px 0 0;
       background: var(--line-strong);
@@ -138,6 +153,13 @@
     .notice { margin: 0 0 18px; max-width: 760px; border-color: var(--warn); display: grid; gap: 8px; scroll-margin-top: 90px; }
     .notice code { background: var(--bg-deep); padding: 1px 6px; border-radius: 6px; font-family: var(--font-mono); font-size: 0.94em; }
 
+    .mobile-note {
+      display: flex; align-items: baseline; gap: 10px;
+      margin: 0 0 18px; max-width: 760px;
+      border-color: var(--warn); font-size: 14px; color: var(--muted);
+    }
+    .mobile-note strong { color: var(--ink); white-space: nowrap; }
+
     /* ---- Contact band ---- */
     .contact-band {
       display: grid;
@@ -201,7 +223,7 @@
     <section class="hero">
       <div class="hero__copy">
         <svg class="hero__mark" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#87CEEB"/><path d="M12 46 L26 26 L36 38 L52 14" fill="none" stroke="#3A6F99" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="46" r="5" fill="#4682B4"/><circle cx="52" cy="14" r="5" fill="#1E3D56"/></svg>
-        <h1>EnigmaPath</h1>
+        <h1>EnigmaPath <span class="hero__version">v0.1.0-static</span></h1>
         <hr class="hero__rule">
         <p class="hero__lede">Small, hands-on labs for big ideas. Play a game, crack a cipher or take a quiz — then see how it works.</p>
         <div class="hero__actions">
@@ -221,6 +243,11 @@
         </div>
       </article>
     </section>
+
+    <div class="card mobile-note" role="note">
+      <strong>Mobile note:</strong>
+      <span>Some features may be broken on phones and small screens. These issues will be fixed in future versions.</span>
+    </div>
 
     <div class="card notice" id="exam-notice" role="status" hidden>
       <h2>Exam is only available on local server</h2>

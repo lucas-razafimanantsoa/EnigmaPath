@@ -25,6 +25,8 @@
       '<a href="mailto:lucas.mirija@pm.me">Contact</a>' +
       '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
       '<a href="https://github.com/lucas-razafimanantsoa/EnigmaPath" target="_blank" rel="noopener noreferrer">GitHub repository</a>' +
+      '<span class="ep-footer__sep" aria-hidden="true">·</span>' +
+      '<a href="https://lucas-mirija-pf.netlify.app" target="_blank" rel="noopener noreferrer">Portfolio</a>' +
     '</span>';
   footer.appendChild(inner);
 
